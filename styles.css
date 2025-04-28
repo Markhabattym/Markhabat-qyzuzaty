@@ -1,0 +1,84 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #f8e1f3, #ffe8cc);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Wrapper Styling */
+.invitation-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Card Styling */
+.invitation-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Header Styling */
+.invitation-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    margin: 10px 0;
+    color: #A64AC9;
+}
+
+.invitation-subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Content Styling */
+.invitation-content {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.details p {
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+/* Footer Styling */
+.invitation-footer {
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+.signature {
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #A64AC9;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
